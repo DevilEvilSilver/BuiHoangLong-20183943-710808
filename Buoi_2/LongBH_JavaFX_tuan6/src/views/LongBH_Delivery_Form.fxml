@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="130.0" layoutX="23.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/logo.PNG" />
+               </image>
+            </ImageView>
+            <Label layoutX="166.0" layoutY="36.0" text="SHIPPING" textFill="#00b7f4">
+               <font>
+                  <Font name="System Bold" size="48.0" />
+               </font>
+            </Label>
+            <Label layoutX="233.0" layoutY="155.0" text="Name">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="233.0" layoutY="229.0" text="Phone">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="233.0" layoutY="313.0" text="Province/City">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="236.0" layoutY="404.0" text="Address">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="236.0" layoutY="517.0" prefHeight="35.0" prefWidth="99.0" text="Shipping">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button layoutX="552.0" layoutY="663.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="262.0" style="-fx-background-color: red;" text="Confirm delivery" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Button>
+            <TextField layoutX="449.0" layoutY="160.0" prefHeight="35.0" prefWidth="629.0" promptText="LongBH" />
+            <TextField layoutX="449.0" layoutY="229.0" prefHeight="35.0" prefWidth="629.0" promptText="LongBH" />
+            <TextArea layoutX="449.0" layoutY="381.0" prefHeight="82.0" prefWidth="630.0" promptText="LongBH" />
+            <ChoiceBox layoutX="449.0" layoutY="303.0" prefHeight="54.0" prefWidth="149.0" />
+            <TextArea layoutX="449.0" layoutY="492.0" prefHeight="126.0" prefWidth="630.0" promptText="LongBH" />
+            <Label layoutX="236.0" layoutY="557.0" prefHeight="35.0" prefWidth="121.0" text="Instruction">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
