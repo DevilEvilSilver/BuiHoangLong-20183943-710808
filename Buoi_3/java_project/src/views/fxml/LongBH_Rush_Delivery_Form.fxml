@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="130.0" layoutX="23.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/logo.PNG" />
+               </image>
+            </ImageView>
+            <Label layoutX="166.0" layoutY="36.0" text="RUSH DELIVERY INFO" textFill="#00b7f4">
+               <font>
+                  <Font name="System Bold" size="48.0" />
+               </font>
+            </Label>
+            <Label layoutX="225.0" layoutY="149.0" text="Recieve">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="225.0" layoutY="270.0" prefHeight="35.0" prefWidth="219.0" text="Shipping instruction">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button layoutX="552.0" layoutY="663.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="262.0" style="-fx-background-color: red;" text="Confirm delivery" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Button>
+            <TextArea layoutX="499.0" layoutY="233.0" prefHeight="126.0" prefWidth="588.0" promptText="LongBH" />
+            <Label layoutX="225.0" layoutY="184.0" text="Date">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <DatePicker layoutX="499.0" layoutY="166.0" prefHeight="35.0" prefWidth="299.0" />
+            <Label layoutX="225.0" layoutY="308.0" prefHeight="35.0" prefWidth="182.0" text="for rush delivery">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
